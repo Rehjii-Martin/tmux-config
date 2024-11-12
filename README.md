@@ -12,6 +12,7 @@ This repository contains my customized `tmux` configuration files, scripts, and 
 ## Screenshots
 
 ![Status Bar Screenshot](/images/tmuxstatusbaronly.png)
+![WholeTerminal View](/images/StatusBarTmux.png)
 
 ## Installation
 
@@ -33,21 +34,25 @@ This repository contains my customized `tmux` configuration files, scripts, and 
 2. Copy the .tmux.conf file to your home directory
 
 ```bash
-  cp .tmux.conf ~/
+cp .tmux.conf ~/
 
 ```
 
 3. Copy the plugins/ folder to the appropriate directory
 
 ```bash
-  cp -r plugins/ ~/.tmux/plugins/
+cp -r plugins/ ~/.tmux/plugins/
 
 ```
 
 4. Reload tmux
 
 ```bash
-  tmux soure-file ~/.tmux.conf
+tmux soure-file ~/.tmux.conf
 ```
 
-5. Fin!
+5. Finish and run tmux!
+
+```bash
+tmux
+```
