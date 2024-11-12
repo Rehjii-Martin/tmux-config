@@ -25,16 +25,29 @@ This repository contains my customized `tmux` configuration files, scripts, and 
 1. Clone this repository:
 
    ```bash
-   git clone git@github.com:your-username/tmux-config.git
+   git clone git@github.com:Rehjii-Martin/tmux-config.git
    cd tmux-config
 
    ```
 
 2. Copy the .tmux.conf file to your home directory
 
+```bash
+  cp .tmux.conf ~/
+
+```
+
 3. Copy the plugins/ folder to the appropriate directory
 
+```bash
+  cp -r plugins/ ~/.tmux/plugins/
+
+```
+
 4. Reload tmux
-   tmux source-file ~/.tmux.conf
+
+```bash
+  tmux soure-file ~/.tmux.conf
+```
 
 5. Fin!
