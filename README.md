@@ -11,7 +11,7 @@ This repository contains my customized `tmux` configuration files, scripts, and 
 
 ## Screenshots
 
-![Status Bar Screenshot](/images/StatusBarTmux.png)
+![Status Bar Screenshot](/images/tmuxstatusbaronly.png)
 
 ## Installation
 
