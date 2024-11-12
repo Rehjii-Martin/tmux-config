@@ -33,26 +33,26 @@ This repository contains my customized `tmux` configuration files, scripts, and 
 
 2. Copy the .tmux.conf file to your home directory
 
-```bash
-cp .tmux.conf ~/
+   ```bash
+   cp .tmux.conf ~/
 
-```
+   ```
 
 3. Copy the plugins/ folder to the appropriate directory
 
-```bash
-cp -r plugins/ ~/.tmux/plugins/
+   ```bash
+   cp -r plugins/ ~/.tmux/plugins/
 
-```
+   ```
 
 4. Reload tmux
 
-```bash
-tmux soure-file ~/.tmux.conf
-```
+   ```bash
+   tmux soure-file ~/.tmux.conf
+   ```
 
 5. Finish and run tmux!
 
-```bash
-tmux
-```
+   ```bash
+   tmux
+   ```
